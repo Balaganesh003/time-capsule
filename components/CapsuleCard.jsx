@@ -23,7 +23,7 @@ const CapsuleCard = ({ isover }) => {
       <div className="flex gap-4 rounded-md  p-4 items-center justify-between capitalize text-lg font-semibold">
         <p className="truncate">Title of the capsule</p>
         {!isover && (
-          <p className="text-sm bg-gray-500 text-white rounded-full p-2">
+          <p className="text-sm bg-gray-500 text-white rounded-full px-4 py-2">
             5 days to go
           </p>
         )}

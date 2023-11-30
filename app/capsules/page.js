@@ -52,7 +52,7 @@ const Capsules = () => {
           </div>
           {/* Capsules */}
           <div className="pt-24">
-            <h1 className="text-center text-2xl font-semibold text-black">
+            <h1 className="text-center text-2xl font-semibold text-black mb-8">
               Capsule Memories
             </h1>
             <div className="flex flex-col items-center w-full gap-5">
