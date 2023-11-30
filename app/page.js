@@ -12,6 +12,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { DatePickerDemo } from '@/components/DateTime';
 import toast, { Toaster } from 'react-hot-toast';
+import Link from 'next/link';
 
 export default function Home() {
   const [document, setDocument] = useState('');
@@ -70,7 +71,11 @@ export default function Home() {
           <Toaster />
           {/* NavBar */}
           <div className="fixed inset-0 w-full h-16 bg-white/50 backdrop-blur-md px-8">
-            <div className="flex items-center  h-full justify-end w-full">
+            <div className="flex items-center  h-full justify-between w-full">
+              <Button asChild>
+                <Link href="/capsules">My Capsules</Link>
+              </Button>
+
               <ConnectButton />
             </div>
           </div>
